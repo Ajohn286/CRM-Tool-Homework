@@ -1,0 +1,444 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  gap: 5px;
+  font-size: 10px;
+  margin-top: 10px;
+
+}
+
+#spacer {
+  background: blue;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: 4px;
+}
+
+.col-two {
+  position: relative;
+  padding-top: 10px;
+  scale: 110%;
+
+}
+
+.explore {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid lightgrey;
+  padding-top: 50px;
+  align-items: center;
+  transform: 50px;
+}
+
+
+.col-two #grid {
+  margin: auto;
+  display: block;
+}
+
+.col-one {
+  padding-top: 30px;
+  text-align: left;
+  vertical-align: middle;
+  margin-top: 40px;
+}
+
+.col-one h5 {
+  color: grey;
+}
+
+.sign-in-row {
+  color: gray;
+  font-size: 16px;
+
+}
+
+#sign-in {
+  font-size: 20px;
+}
+
+#sign-in a {
+  display: inline;
+  text-decoration: none;
+  color: grey;
+  width: 100%;
+
+}
+
+#button-1 {
+  height: 50px;
+  width: 180px;
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+
+#button-1 i {
+  scale: 50%;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+#button-2 {
+  height: 50px;
+  width: 180px;
+  border-radius: 15px;
+  margin-top: 5px;
+  border-color: blue;
+  background-color: white;
+  color: blue;
+  vertical-align: middle;
+}
+
+#button-2 i {
+  margin: 5px;
+}
+
+#button-1-nav {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  color: blue;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 5px;
+  vertical-align: middle;
+  border-color: blue;
+  vertical-align: middle;
+
+}
+
+
+#button-2-nav {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 5px;
+  border-color: blue;
+  background-color: blue;
+  color: white;
+  vertical-align: middle;
+
+}
+
+#button-three {
+  height: 50px;
+  width: 300px;
+  color: white;
+  vertical-align: middle;
+  border-color: white;
+  border-width: thick;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.col-two img {
+  padding-top: 50px;
+  height: 520px;
+}
+
+.explore {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#icon {
+  color: blue;
+}
+
+.useful-info {
+  color: black 1px solid;
+  height: 500px;
+
+}
+
+.image-row {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.row-two {
+  display: flex;
+}
+
+.row-two #image-row-column {
+  justify-content: center;
+  border-radius: 15px;
+  width: 150px;
+  height: 140px;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  border: 2px solid lightgray;
+  text-align: center;
+}
+
+
+.row-two #image-row-column-payments {
+  justify-content: center;
+  border-radius: 15px;
+  width: 150px;
+  height: 140px;
+  align-items: center;
+  background-color: blue;
+  border-color: lightgray;
+  text-align: center;
+  color: white;
+
+}
+
+.row-two #image-row-column-payments i {
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  align-items: center;
+  background-color: white;
+  color: black;
+  margin-bottom: 15px;
+}
+
+
+.dollar-sign {
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+
+.retain {
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+
+.retain p {
+  margin-top: 25px;
+}
+
+.reporting {
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+.reporting p {
+  margin-top: 15px;
+}
+
+.convert {
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+
+.convert p {
+  margin-top: 15px;
+}
+
+.col-three img {
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+#test {
+  text-align: left;
+}
+
+.easy-payments {
+  border: 1px solid lightgray;
+  height: 6 00px;
+  border-radius: 30px;
+}
+
+#cc {
+  width: 100%;
+
+
+}
+
+.payment-image {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.payment-text {
+  background-color: blue;
+  height: 600px;
+  width: 861px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: white;
+  text-align: left;
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+
+
+li {
+  list-style: none;
+
+}
+
+#header {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: blue;
+  padding-left: 0px;
+  height: 50px;
+
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: relative;
+  padding-left: 0px;
+  height: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+
+}
+
+.head ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 40px;
+  padding-left: 50px;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.head ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+
+.payments i {
+  text-align: center;
+}
+
+.row-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.row-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.row-two i {
+  border: 10px;
+  border-color: black;
+}
+
+#solutions {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.row-four {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  vertical-align: middle;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.row-four h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row-five {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.row-five h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-background {
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  align-items: center;
+  background-color: rgb(229, 239, 255);
+  margin: auto;
+  width: 120px;
+  height: 120px;
+  border: 1px solid lightgray;
+
+}
+
+
+.image-background img {
+  vertical-align: middle;
+  margin: auto;
+
+}
+
+#button-four {
+  width: 220px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+#button-four i {
+  position: relative;
+  float: right;
+  margin-top: 6px;
+
+}
+
+footer {
+  margin-top: 150px;
+  background-color: blue;
+  height: 500px;
+}
