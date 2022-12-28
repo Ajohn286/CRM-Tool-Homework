@@ -1,0 +1,222 @@
+
+
+
+#header{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    margin-left: 1px;
+    padding-left: 0px;
+    
+    
+    
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    top: 0;
+    margin-left: 10%;
+    padding-top: 30px;
+    padding-left: 0px;
+    
+    width: 100%
+    
+}
+
+.head ul li a{
+    text-decoration:none;
+    color:black;
+    padding: 40px;
+    padding-left: 50px;
+    justify-content: space-between;
+    font-size: 10px;
+
+}
+
+.head ul{
+        display: flex;
+        list-style: none;
+        flex-direction: row ;
+        justify-content: space-between;
+
+    }
+
+#spacer{
+    background: blue;
+    border-radius: 50%;
+    height:10px;
+    width:10px;
+    margin-top: 4px;
+}
+
+.flex{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: left;
+
+    
+    
+    
+}
+
+.col-two{
+    position: relative;
+    padding-left: 100px;
+    padding-top: 10px;
+    
+}
+
+.col-one{
+    padding-top: 80px;
+
+}
+
+#sign-in{
+    color:gray;
+    font-size: 16px;
+    
+}
+
+#button-1{
+    height:50px;
+    width:130px;
+    background-color:blue ;
+    color: white;
+    border-radius: 15px;
+}
+
+#button-2{
+    height:50px;
+    width:140px;
+    background-color: white;
+    color: blue;
+    border-radius: 15px;
+
+}
+
+
+.col-two img{
+    padding-top: 50px;
+    
+    height:520px;
+
+}
+
+#gandalf{
+    text-align: center;
+    color: white;
+    
+}
+
+.col-two{
+    padding-top: 10px;
+    padding-left: 10px ;
+    
+}
+
+.col-four{
+    background-color: white;
+    
+}
+
+#icon{
+    color:blue;
+}
+
+.useful-info{
+    border:black 0.5px solid;
+    height:444px;
+    border-color: gray;
+    border-radius: 15px;
+    
+    
+    
+}
+
+
+#frodo{
+    text-align: center;
+}
+
+#sam{
+    color: white;
+    padding-left: 50px;
+}
+
+
+#saruman{
+    text-align: center;
+     padding-left: 100px; 
+     color: white;
+    
+
+    
+}
+
+.col-three img{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-left:10px;
+    margin-right: 50px;
+    
+    
+}
+
+.col-four img{
+    padding-top: 80px;
+    padding-left: 130px;
+    padding-bottom: 20px;
+    height:350px;
+    
+
+}
+
+
+.get-paid{
+    border:black 0.5px solid;
+    height:460px;
+    border-color: gray;
+    border-radius: 15px;
+    
+    
+    
+}
+
+.col-fourhalf{
+    background-color: blue;
+     padding-right: 100px; 
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 459px;
+    
+   
+    
+    
+
+}
+
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.col-threehalf{
+    background-color: blue;
+     padding-right: 100px;  
+     border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
