@@ -437,8 +437,26 @@ a {
 
 }
 
-footer {
-  margin-top: 150px;
-  background-color: blue;
-  height: 500px;
-}
+.mb-4{
+    margin: 0.5em;
+  }
+  .me-5 {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 13px ;
+  }
+
+  .fas {
+    padding-top: 13px ;
+  }
+  .socials{
+    display: flex;
+    flex-direction: row;
+    width: 150px ;
+  }
+  
+  .socialc {
+    height:50px;
+    margin-top: 30px;
+  }
+
