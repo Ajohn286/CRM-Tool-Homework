@@ -6,7 +6,7 @@
     color: blue;
     margin-left: 1px;
     padding-left: 0px;
-    
+    height: 40px
     
     
 }
@@ -18,11 +18,11 @@
     background-color: white;
     position: relative;
     top: 0;
-    margin-left: 10%;
+    margin-left: 7%;
     padding-top: 30px;
-    padding-left: 0px;
+    padding-left: px;
     
-    width: 100%
+    width: 80%
     
 }
 
@@ -32,7 +32,7 @@
     padding: 40px;
     padding-left: 50px;
     justify-content: space-between;
-    font-size: 10px;
+    font-size: 15px;
 
 }
 
@@ -41,7 +41,9 @@
         list-style: none;
         flex-direction: row ;
         justify-content: space-between;
-
+        font-size: 10px;
+        margin-top: 20px;
+        
     }
 
 #spacer{
@@ -54,9 +56,9 @@
 
 .flex{
     display: flex;
-    gap: 5px;
+    gap: 15px;
     flex-direction: row;
-    font-size: 10px;
+    font-size: 14px;
     margin-top: 10px;
     text-align: left;
 
@@ -84,20 +86,25 @@
 }
 
 #button-1{
-    height:50px;
-    width:130px;
-    background-color:blue ;
-    color: white;
-    border-radius: 15px;
+
+    height:40px;
+    width:100px;
+    background-color: white ;
+    color: blue;
+    border-radius: 10px;
+    margin-left: 100px;
+    border-color: blue;
+   
 }
 
 #button-2{
-    height:50px;
-    width:140px;
-    background-color: white;
-    color: blue;
-    border-radius: 15px;
-
+    height:40px;
+    width:100px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+    border-color: blue;
 }
 
 
@@ -127,6 +134,7 @@
 
 #icon{
     color:blue;
+    
 }
 
 .useful-info{
@@ -220,6 +228,35 @@
 
 }
 
+<<<<<<< HEAD:how_it_works/css/style.css
+#button-3{
+    height:50px;
+    width:150px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin-left: 0px;
+    border-color: blue;
+}
+
+#button-4{
+
+    height:50px;
+    width:150px;
+    background-color: white ;
+    color: blue;
+    border-radius: 10px;
+    margin-left: 10px;
+    border-color: blue;
+    
+}
+
+#list{
+    font-size: 20px;
+}
+
+.socials{
+=======
 .mb-4{
     margin: 0.5em;
   }
@@ -233,12 +270,20 @@
     padding-top: 13px ;
   }
   .socials{
+>>>>>>> 7ebcbb3c6f388abb69c234dfe9ab25a818398314:css/style.css
     display: flex;
     flex-direction: row;
     width: 150px ;
   }
+<<<<<<< HEAD:how_it_works/css/style.css
+  .socialc {
+    height:50px;
+    margin-top: 30px;
+  }
+=======
   
   .socialc {
     height:50px;
     margin-top: 30px;
   }
+>>>>>>> 7ebcbb3c6f388abb69c234dfe9ab25a818398314:css/style.css
